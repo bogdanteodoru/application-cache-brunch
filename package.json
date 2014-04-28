@@ -1,0 +1,46 @@
+{
+  "name": "manifesto",
+  "version": "0.0.1",
+  "description": "Brunch plugin that automatically ads or updates *.appcache (Application Cache) file based on array of inputs.",
+  "author": {
+    "name": "Bogdan Teodoru",
+    "url": "http://www.bogdanteodoru.com/"
+  },
+  "homepage": "https://github.com/bogdanteodoru/manifesto",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:bogdanteodoru/manifesto.git"
+  },
+  "main": "./lib/index",
+  "scripts": {
+    "prepublish": "coffee -o lib/ src/",
+    "postinstall": "node setup.js postinstall",
+    "test": "node setup.js test"
+  },
+  "engines": {
+    "node": "~0.6.10 || 0.8 || 0.9 || 0.10.8"
+  },
+  "dependencies": {
+    "coffee-script": "latest",
+  },
+  "devDependencies": {
+    "mocha": "latest",
+    "chai": "1.2.0"
+  },
+  "readmeFilename": "README.md",
+  "directories": {
+    "test": "test"
+  },
+  "keywords": [
+    "brunch",
+    "javascript",
+    "application",
+    "cache",
+    "manifest",
+    "file"
+  ],
+  "bugs": {
+    "url": "https://github.com/bogdanteodoru/manifesto/issues"
+  },
+  "_id": "manifesto@0.0.1"
+}
