@@ -1,5 +1,5 @@
 {
-  "name": "applicationCache",
+  "name": "application-cache-brunch",
   "version": "0.0.1",
   "description": "Brunch plugin that automatically ads or updates *.appcache (Application Cache) file based on array of inputs.",
   "author": {
