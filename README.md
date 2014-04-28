@@ -6,7 +6,7 @@ Brunch plugin that automatically ads or updates your app.appcache file with the 
 Just add the folowing into your config.coffee file
 
 ```coffeescript
-manifesto:
+applicationCache:
   active: true #if false it doesn't do anything ;)
   CACHE: [] # Example: ["style.css", "images/1.png"]
   NETWORK: [] # Example: ["network.html", "something.html"]

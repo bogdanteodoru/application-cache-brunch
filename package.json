@@ -1,15 +1,15 @@
 {
-  "name": "manifesto",
+  "name": "applicationCache",
   "version": "0.0.1",
   "description": "Brunch plugin that automatically ads or updates *.appcache (Application Cache) file based on array of inputs.",
   "author": {
     "name": "Bogdan Teodoru",
     "url": "http://www.bogdanteodoru.com/"
   },
-  "homepage": "https://github.com/bogdanteodoru/manifesto",
+  "homepage": "https://github.com/bogdanteodoru/application-cache-brunch",
   "repository": {
     "type": "git",
-    "url": "git@github.com:bogdanteodoru/manifesto.git"
+    "url": "git@github.com:bogdanteodoru/application-cache-brunch.git"
   },
   "main": "./lib/index",
   "scripts": {
@@ -40,7 +40,7 @@
     "file"
   ],
   "bugs": {
-    "url": "https://github.com/bogdanteodoru/manifesto/issues"
+    "url": "https://github.com/bogdanteodoru/application-cache-brunch/issues"
   },
-  "_id": "manifesto@0.0.1"
+  "_id": "application-cache-brunch@0.0.1"
 }

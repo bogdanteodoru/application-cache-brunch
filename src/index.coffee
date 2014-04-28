@@ -1,10 +1,16 @@
 {spawn, exec} = require 'child_process'
 fs = require "fs"
 
-module.exports = class Manifesto
+module.exports = class applicationCache
   brunchPlugin: yes
   active: null
   options: null
 
   constructor: (@config) ->
-    @active = @config.manifesto.active if @config.manifesto?.active
+    @active = @config.applicationCache.active if @config.applicationCache?.active
+
+  onCompile: ->
+    @testMe()
+
+  testMe: ->
+    console.log("HI!!!")
