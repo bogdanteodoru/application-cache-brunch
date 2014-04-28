@@ -1,7 +1,7 @@
 {spawn, exec} = require 'child_process'
 fs = require "fs"
 
-module.exports = class manifesto
+module.exports = class Manifesto
   brunchPlugin: yes
   active: null
   options: null
